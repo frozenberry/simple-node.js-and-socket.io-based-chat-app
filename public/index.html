@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Binge</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="chat-room">
+      <h2 id="heading">BINGE</h2>
+      <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+      <div id="create-message">
+        <input type="text" id="message" placeholder="Start Typing..." />
+        <button id="send">
+          <i class="fa fa-send-o"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</html>
